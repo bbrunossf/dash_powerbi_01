@@ -31,3 +31,12 @@ Foram gerados dados equivalente à produção de 18 meses de trabalho, com uma e
   
 Todos os registros foram salvos num banco de dados, e conectado ao PowerBI.  
 Apesar de ser possível fazer algumas consolidações e agrupamentos diretamente no banco de dados usando SQL, optou-se por fazer as transformações de dados diretamente no PowerBI, visando explorar as funcionalidades desse software.  
+
+**Visão 01 - Geral**  
+<img  src="./page1.jpg"  width="80%" />  
+
+**Visão 02 - Cliente**  
+<img  src="./page2.jpg"  width="80%" />  
+
+**Visão 03 - Funcionários**  
+<img  src="./page3.jpg"  width="80%" />  
