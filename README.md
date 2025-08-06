@@ -22,3 +22,12 @@ Foram criadas 3 visões para apresentar os dados em diferentes perspectivas:
 * Pessoa: visão dos custos e participação dos colaboradores.  
 
 ## Geração dos dados fictícios
+Os dados foram gerados com auxílio de modelos de linguagem (LLM) para geração dos nomes de clientes, funcionários e obras; e usando numpy para criar dados aleatórios com algumas premissas, para que pudessem ser adaptados à estrutura do banco de dados existente, e refletindo um perfil de dados coerente com a realidade de um escritório de projetos.  
+A biblioteca numpy permite a criação de número aleatórios, porém atendendo a determinados critérios. Alguns dos critérios adotados foram:  
+- horário dos registros: registros somente no horário comercial (08:00 - 17:00);  
+- horas extras: 20% dos registros foram classificados como hora extra;  
+- perfil de funcionário: foram estipulados perfis de trabalho para cada funcionário, para que as tarefas registradas fossem restritas a uma determinada proporção entre as tarefas classificadas.  
+Foram gerados dados equivalente à produção de 18 meses de trabalho, com uma equipe formada por 8 profissionais, num total de 24320 registros.
+  
+Todos os registros foram salvos num banco de dados, e conectado ao PowerBI.  
+Apesar de ser possível fazer algumas consolidações e agrupamentos diretamente no banco de dados usando SQL, optou-se por fazer as transformações de dados diretamente no PowerBI, visando explorar as funcionalidades desse software.  
